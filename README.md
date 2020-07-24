@@ -1,22 +1,20 @@
 # Turbolinks Example
 
-A [Turbolinks](https://github.com/turbolinks/turbolinks) web app built using Parcel. It's lightening fast!!!
+A [Turbolinks](https://github.com/turbolinks/turbolinks) web app built using [Parcel](https://parceljs.org/). It's lightening fast!!!
 
 ## Usage
 
 First install dependencies:
 
-```sh
-npm install
-```
+    $ npm install
 
-Build and run the app with:
+Run the app locally with:
 
-    $ npm run build && cd dist && serve
+    $ npm start
 
-Then browse to: `http://localhost:5000/`
+Then browse to: [`http://localhost:1234`](http://localhost:1234)
 
-Open the browser's dev tools and you should see a console log showing turbolinks has loaded. Then open the network timings pane and navigate between the pages and bask in awe at the speed.
+Open the browser's dev tools and you should see a console log showing Turbolinks has loaded. Then open the network timings pane, navigate between the pages and bask in awe at the sheer speed.
 
 Turbolinks gives you the SPA effect without the complexity of an SPA. Enough said.
 
